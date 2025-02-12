@@ -1,0 +1,35 @@
+.container {
+    margin: 5%;
+    background-color: lemonchiffon;
+    padding: 15px;
+    overflow: auto;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+h2 {
+    font-variant: small-caps;
+}
+
+.note1, .note2 {
+    width: 105px;
+    height: 105px;
+}
+
+.note1 {
+    float: left;
+    border-right: 3px solid burlywood;
+    margin-right: 10px;
+}
+
+.note2 {
+    float: right;
+    border-left: 3px solid burlywood;
+    margin-left: 10px;
+}
+
+p strong {
+    font-weight: bold;
+}
